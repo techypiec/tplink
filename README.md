@@ -39,7 +39,7 @@ Router config link : http://192.168.0.1/cgi/conf.bin?
 pkg update -y
 pkg install git -y
 pkg install python -y
-git clone https://github.com/ITSN0B1T4/tplink
+git clone https://github.com/techypiec/tplink
 cd tplink
 pip install -r requirements.txt
 chmod +x tpdec.py
